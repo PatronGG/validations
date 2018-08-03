@@ -5,8 +5,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/PatronGG/gorm"
 	"github.com/asaskevich/govalidator"
-	"github.com/jinzhu/gorm"
 )
 
 var skipValidations = "validations:skip_validations"
